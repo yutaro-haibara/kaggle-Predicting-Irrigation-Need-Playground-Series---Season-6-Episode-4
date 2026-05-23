@@ -1,19 +1,21 @@
 # kaggle-Predicting-Irrigation-Need-Playground-Series---Season-6-Episode-4
 # 1.プロジェクト概要
-    KaggleのPlaygroundコンペティション「Predicting Irrigation Need」において、土壌の状     態、気象データ、作物の種類などの特徴量から、灌漑の必要性（Irrigation Need: Low, Medium,    High）を予測する多クラス分類モデルを構築。
+KaggleのPlaygroundコンペティション「Predicting Irrigation Need」において、土壌の状態、気象データ、作物の種類などの特徴量から、灌漑の必要性（Irrigation Need: Low, Medium,High）を予測する多クラス分類モデルを構築。
 # 2.使用データ
-　データソース:Kaggle Playground Series S6E4
-  特徴量:
-    土壌データ：'Soil_Type', 'Soil_pH', 'Soil_Moisture', 'Organic_Carbon',
-               'Electrical_Conductivity'
-    気象データ：'Temperature_C', 'Humidity', 'Rainfall_mm',
-               'Sunlight_Hours', 'Wind_Speed_kmh'
-    耕作データ：'Crop_Type', 'Crop_Growth_Stage',
-       　　　　 'Season', 'Irrigation_Type', 'Water_Source', 'Field_Area_hectare',
-    　　　 　　 'Mulching_Used', 'Previous_Irrigation_mm', 'Region'
-    その他：'id'
-       
-  ターゲット:'Irrigation_Need'
+データソース:Kaggle Playground Series S6E4
+特徴量:
+土壌データ：'Soil_Type', 'Soil_pH', 'Soil_Moisture', 'Organic_Carbon',
+'Electrical_Conductivity'
+
+気象データ：'Temperature_C', 'Humidity', 'Rainfall_mm',
+'Sunlight_Hours', 'Wind_Speed_kmh'
+
+耕作データ：'Crop_Type', 'Crop_Growth_Stage','Season', 'Irrigation_Type', 'Water_Source', 'Field_Area_hectare',
+'Mulching_Used', 'Previous_Irrigation_mm', 'Region'
+
+その他：'id'
+
+target:'Irrigation_Need'
 
 # 3.手法
  特徴量エンジニアリング
